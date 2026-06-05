@@ -1,1 +1,59 @@
 /*  your css code here. If applicable */
+.container{
+	display:grid;
+	width:100vw;
+	height:100vh;
+	grid-gap:10px;
+	color:white;
+	font-size:4vw;
+}
+.first{
+	grid-row:1/2;
+	grid-column:1/5;
+	background-color:green;
+}
+.second{
+	grid-row:2/6;
+	grid-column:1/2;
+	background-color:green;
+}
+.third{
+	grid-row:2/3;
+	grid-column:2/3;
+	background-color:green;
+}
+.fourth{
+	grid-row:2/3;
+	grid-column:3/5;
+	background-color:green;
+}
+.fifth{
+	grid-row:3/4;
+	grid-column:2/4;
+	background-color:green;
+}
+.sixth{
+	grid-row:3/4;
+	grid-column:4/5;
+	background-color:green;
+}
+.seventh{
+	grid-row:4/5;
+	grid-column:2/3;
+	background-color:green;
+}
+.eighth{
+	grid-row:4/5;
+	grid-column:3/4;
+	background-color:green;
+}
+.ninth{
+	grid-row:4/5;
+	grid-column:4/5;
+	background-color:green;
+}
+.tenth{
+	grid-row:5/6;
+	grid-column:2/5;
+	background-color:green;
+}
